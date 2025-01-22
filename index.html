@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie - How make money trading</title>
-    <meta name="description" content="Forex trading involves speculating on currency price movements to profit from fluctuations in exchange rates. Traders buy one currency while simultaneously selling another, aiming for the purchased currency to appreciate in value relative to the sold one. Currencies are quoted in pairs, with the first currency being the base and the second the quote currency. The bid price represents the amount a broker is willing to pay for the base currency, while the ask price is what the broker sells it for; the difference between these prices is known as the spread. To succeed in forex trading, it's crucial to understand market mechanics, develop a solid trading strategy, and practice disciplined risk management. While the forex market offers the potential for profit, it's essential to approach trading with realistic expectations, as the majority of traders experience losses due to factors like lack of planning, insufficient training, and inadequate discipline. Therefore, thorough education and consistent practice are vital for those looking to engage in forex trading.">  	
-    <b:if cond='!data:blog.postImageUrl or !data:blog.postImageThumbnailUrl'>
-      <meta content='https://4.bp.blogspot.com/-K9Qj5OB-hu0/W6j9yqCDKRI/AAAAAAAAGao/b2bHdeyRcd8-8S3tqWQML_UVz4SwF2IngCLcBGAs/s1600/IGLO-Theme.png' property='og:image'/>
+    <title>Stream Movies Online</title>
+    <meta name="description" content="Stream online! Find with all the movies you can watch online.">  	
+    <meta content='https://4.bp.blogspot.com/-K9Qj5OB-hu0/W6j9yqCDKRI/AAAAAAAAGao/b2bHdeyRcd8-8S3tqWQML_UVz4SwF2IngCLcBGAs/s1600/IGLO-Theme.png' property='og:image'/>
 	<style>
         body {
             background: url('Background.png') no-repeat center center fixed;
@@ -36,14 +35,6 @@
         #images {
             text-align: center;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin: 5px 0;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
         @media (max-width: 320px) {
             #wrapper {
                 width: 95%;
@@ -62,44 +53,6 @@
 	<div id="container-ad9de90c489491650824977b53f25eae"></div>
     	<script async="async" data-cfasync="false" src="//roastwearwritten.com/6683f4839a05cff47fc63acd1bd5b87e/invoke.js"></script>
    	<div id="container-6683f4839a05cff47fc63acd1bd5b87e"></div></center>
-    </div>
-    <script>
-        const textFiles = [''];
-        const imageFiles = [''];
-
-        function getRandomFiles(files, count) {
-            let shuffled = files.sort(() => 0.5 - Math.random());
-            return shuffled.slice(0, count);
-        }
-
-        const randomTextFiles = getRandomFiles(textFiles, 1);
-        randomTextFiles.forEach((file, index) => {
-            fetch(file)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById(`content${index + 1}`).innerHTML = `<p>${data}</p>`;
-                })
-                .catch(error => {
-                    console.error('Error fetching text file:', error);
-                    document.getElementById(`content${index + 1}`).innerHTML = '<p>Artikel tidak ditemukan</p>';
-                });
-        });
-
-        const randomImages1 = getRandomFiles(imageFiles, 1);
-        randomImages1.forEach(img => {
-            let imageElement = document.createElement('img');
-            imageElement.src = img;
-            imageElement.alt = 'Gambar Acak';
-            document.getElementById('images1').appendChild(imageElement);
-        });
-
-        const randomImages2 = getRandomFiles(imageFiles.filter(img => !randomImages1.includes(img)), 5);
-        randomImages2.forEach(img => {
-            let imageElement = document.createElement('img');
-            imageElement.src = img;
-            imageElement.alt = 'Gambar Acak';
-            document.getElementById('images2').appendChild(imageElement);
-        });
-    </script>
+    </div>    
 </body> 
 </html>
